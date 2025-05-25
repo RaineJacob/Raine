@@ -16,8 +16,7 @@ const About = () => {
               Whether it's breaking down business trends or finding hidden insights, I'm always up for a challenge. I’ve worked on several hands-on projects that reflect my skills and obsession with clean visuals and meaningful results.<br/><br/>
               When I’m not analyzing datasets, you’ll probably find me <b>gaming</b>, geeking out over <b>new tech</b>, or learning something new just for fun.<br/><br/>
               I’m actively looking for opportunities where I can grow, contribute, and collaborate with people who love data as much as I do.
-</p>
-
+            </p>
         </div>
 
         <div>
@@ -29,29 +28,26 @@ const About = () => {
             />
           </Tilt>
         </div>
-
       </div>
       
       <h1 className='SkillsHeading'>Professional Skillset</h1>
       <div className='skills'>
-        
         <Skills skill='Python' />
-        <Skills skill='Jupyter ' />
+        <Skills skill='Jupyter' />
         <Skills skill='MYSQL' />
         <Skills skill='Postgres' />
         <Skills skill='Git' />
         <Skills skill='Github' />
-        <Skills skill='Power BI' />
+        <Skills skill='PowerBI' />
+        <Skills skill='Tableau' />
         <Skills skill='Excel' />
         <Skills skill='MS Office' />
         <Skills skill='Figma' />
         <Skills skill='Vercel' />
-        <Skills skill='Tableau' />
-        <Skills skill='AWS(Basics)'/>
-        
+        <Skills skill='AWS' />
       </div>
     </>
   )
 }
 
-export default About
+export default About;
