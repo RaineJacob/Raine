@@ -13,20 +13,22 @@ import {
 } from "react-icons/si";
 
 const Skills = ({ skill }) => {
-    const icon = {
-        Python: <FaPython />, 
-        Jupyter: <SiJupyter />, 
-        MYSQL: <SiMysql />, 
-        Postgres: <SiPostgresql />, 
-        Git: <FaGitAlt />, 
-        Github: <FaGithub />, 
-        PowerBI: <SiPowerbi />, 
-        Tableau: <SiTableau />, 
-        Excel: <SiMicrosoftoffice />, 
-        'MS Office': <SiMicrosoftoffice />, 
-        Figma: <FaFigma />, 
-        Vercel: <SiVercel />, 
-        AWS: <SiAmazonaws />
+        const icon = {
+      Python: <FaPython />,
+      Jupyter: <SiJupyter />,
+      MySQL: <SiMysql />,
+      Postgres: <SiPostgresql />,
+      Git: <FaGitAlt />,
+      Github: <FaGithub />,
+      PowerBI: <SiPowerbi />,
+      Excel: <SiMicrosoftoffice />,
+      'MS Office': <SiMicrosoftoffice />,
+      Figma: <FaFigma />,
+      Vercel: <SiVercel />,
+      Tableau: <SiTableau />,
+      'AWS (Basics)': <SiAmazonaws />,
+};
+
     };
 
     return (
