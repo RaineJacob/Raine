@@ -1,5 +1,4 @@
-import React from 'react'; 
-import { CgCPlusPlus } from "react-icons/cg";
+import React from 'react';
 import { FaPython, FaGitAlt, FaGithub, FaFigma } from "react-icons/fa";
 import { 
   SiVercel, 
@@ -9,30 +8,30 @@ import {
   SiPostgresql, 
   SiTableau, 
   SiMicrosoftoffice, 
-  SiAmazonaws, 
-  SiMicrosoftazure 
+  SiAmazonaws 
 } from "react-icons/si";
+import { AiOutlineQuestionCircle } from "react-icons/ai"; // Fallback icon
 
 const Skills = ({ skill }) => {
     const icon = {
-        Git: <FaGitAlt />, 
-        Github: <FaGithub />, 
-        Figma: <FaFigma />, 
-        Vercel: <SiVercel />, 
-        Python: <FaPython />, 
-        Jupyter: <SiJupyter />, 
-        MySQL: <SiMysql />, 
-        Postgres: <SiPostgresql />, 
-        PowerBI: <SiPowerbi />, 
-        Excel: <SiMicrosoftoffice />, 
-        'MS Office': <SiMicrosoftoffice />, 
-        Tableau: <SiTableau />, 
+        Python: <FaPython />,
+        Jupyter: <SiJupyter />,
+        MYSQL: <SiMysql />,
+        Postgres: <SiPostgresql />,
+        Git: <FaGitAlt />,
+        Github: <FaGithub />,
+        PowerBI: <SiPowerbi />,
+        Tableau: <SiTableau />,
+        Excel: <SiMicrosoftoffice />,
+        'MS Office': <SiMicrosoftoffice />,
+        Figma: <FaFigma />,
+        Vercel: <SiVercel />,
         AWS: <SiAmazonaws />
     };
 
     return (
         <div title={skill} className='SkillBox'>
-            {icon[skill] || <span>❓</span>} {/* fallback icon if missing */}
+            {icon[skill] || <AiOutlineQuestionCircle />} {/* fallback icon if not found */}
         </div>
     );
 };
