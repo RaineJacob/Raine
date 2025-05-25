@@ -10,7 +10,7 @@ import {
   SiMicrosoftoffice, 
   SiAmazonaws 
 } from "react-icons/si";
-import { AiOutlineQuestionCircle } from "react-icons/ai"; // Fallback icon
+import { AiOutlineQuestionCircle } from "react-icons/ai"; // fallback
 
 const Skills = ({ skill }) => {
     const icon = {
@@ -31,7 +31,7 @@ const Skills = ({ skill }) => {
 
     return (
         <div title={skill} className='SkillBox'>
-            {icon[skill] || <AiOutlineQuestionCircle />} {/* fallback icon if not found */}
+            {icon[skill] || <AiOutlineQuestionCircle />}
         </div>
     );
 };
