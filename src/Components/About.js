@@ -33,18 +33,19 @@ const About = () => {
       <h1 className='SkillsHeading'>Professional Skillset</h1>
       <div className='skills'>
         <Skills skill='Python' />
-        <Skills skill='Jupyter' />
-        <Skills skill='MYSQL' />
-        <Skills skill='Postgres' />
-        <Skills skill='Git' />
-        <Skills skill='Github' />
-        <Skills skill='PowerBI' />
-        <Skills skill='Tableau' />
-        <Skills skill='Excel' />
-        <Skills skill='MS Office' />
-        <Skills skill='Figma' />
-        <Skills skill='Vercel' />
-        <Skills skill='AWS' />
+          <Skills skill='Jupyter' />
+          <Skills skill='MySQL' />
+          <Skills skill='Postgres' />
+          <Skills skill='Git' />
+          <Skills skill='Github' />
+          <Skills skill='PowerBI' />
+          <Skills skill='Excel' />
+          <Skills skill='MS Office' />
+          <Skills skill='Figma' />
+          <Skills skill='Vercel' />
+          <Skills skill='Tableau' />
+          <Skills skill='AWS (Basics)' />
+
       </div>
     </>
   )
