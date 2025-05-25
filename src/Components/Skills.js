@@ -1,23 +1,32 @@
 import React from 'react'; 
-import { CgCPlusPlus } from "react-icons/cg";
 import { FaPython, FaGitAlt, FaGithub, FaFigma } from "react-icons/fa";
-import { SiVercel, SiMysql, SiPowerbi, SiJupyter, SiPostgresql, SiTableau, SiMicrosoftoffice, SiAmazonaws,  } from "react-icons/si";
+import { 
+    SiVercel, 
+    SiMysql, 
+    SiPowerbi, 
+    SiJupyter, 
+    SiPostgresql, 
+    SiTableau, 
+    SiMicrosoftoffice, 
+    SiAmazonaws, 
+    SiWindows 
+} from "react-icons/si";
 
 const Skills = ({ skill }) => {
     const icon = {
-        Git: <FaGitAlt />,
-        Github: <FaGithub />,
-        Figma: <FaFigma />,
-        Vercel: <SiVercel />,
-        Python: <FaPython />,
-        MYSQL: <SiMysql />,
-        Postgres: <SiPostgresql />,
-        PowerBI: <SiPowerbi />,
-        Excel: <SiMicrosoftoffice />,
-        'MS Office': <SiMicrosoftoffice />,
-        Tableau: <SiTableau />,
-        Jupyter: <SiJupyter />,
-        'AWS(Basics)': <SiAmazonaws />
+        Python: <FaPython />, 
+        Jupyter: <SiJupyter />, 
+        MYSQL: <SiMysql />, 
+        Postgres: <SiPostgresql />, 
+        Git: <FaGitAlt />, 
+        Github: <FaGithub />, 
+        PowerBI: <SiPowerbi />, 
+        Tableau: <SiTableau />, 
+        Excel: <SiMicrosoftoffice />, 
+        'MS Office': <SiMicrosoftoffice />, 
+        Figma: <FaFigma />, 
+        Vercel: <SiVercel />, 
+        AWS: <SiAmazonaws />
     };
 
     return (
