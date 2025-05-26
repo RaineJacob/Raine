@@ -30,14 +30,16 @@ const Home = () => {
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
            <p>
-            I love turning raw data into meaningful stories that drive real-world decisions and impact.<br/>
-            Whether it’s cleaning messy datasets or visualizing trends, I find joy in every step of the analytics process.<br/><br/>
+<p>
+        I turn raw data into impactful insights that drive smarter decisions.<br/>
+        With a strong foundation in <b>SQL</b>, <b>Python</b>, and <b>Excel</b>, I specialize in uncovering trends, cleaning data, and visualizing results that matter.<br /><br />
+      
+        I design compelling dashboards using <b>Power BI</b> and <b>Tableau</b> that bring clarity to complexity and enable informed strategies.<br/>
+        I'm not just analyzing data — I'm helping teams understand it, trust it, and act on it.<br /><br />
+      
+        Always curious, always improving — and powered by <b>coffee</b> <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />.
+</p>
 
-            I'm confident in <b>SQL</b> and <b>Excel</b>, and have hands-on experience using <b>Python</b> for data analysis and <b>Power BI</b> for interactive dashboards.<br/>
-            I’m currently sharpening my skills with tools like <b>Tableau</b> and plan to explore <b>Snowflake</b> and <b>Looker</b> in the near future.<br/><br/>
-
-            And yes — I run on <b>data</b>, curiosity, and a whole lot of <b>coffee</b> <CiCoffeeCup />
-  
 </p>
  
           </p>
